@@ -1,8 +1,9 @@
 {
-  "homepage": "https://deepvisionmx.github.io/DeepVisionMx",
+  
   "name": "react-website-vision-1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://deepvisionmx.github.io/DeepVisionMx",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
