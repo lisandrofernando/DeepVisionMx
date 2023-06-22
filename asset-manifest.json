@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e04a649c.css",
-    "main.js": "/static/js/main.14cd408e.js",
-    "static/media/video-2.mp4": "/static/media/video-2.39e6c79bffb375ae929a.mp4",
-    "static/media/Management.jpg": "/static/media/Management.11498394daa24a1bdddd.jpg",
-    "static/media/Testing.jpg": "/static/media/Testing.8eba742a6e2debfd2337.jpg",
-    "static/media/AI.jpg": "/static/media/AI.0b4ab16cb914dc0f13ca.jpg",
-    "static/media/Devops.jpg": "/static/media/Devops.69ffdca37a47d0a34bfb.jpg",
-    "static/media/BackPick.jpg": "/static/media/BackPick.f100e5ec11b4eb6bf10d.jpg",
-    "static/media/Develoment.jpg": "/static/media/Develoment.b26906aa0583f6492fd3.jpg",
-    "static/media/FullLogo_Transparent.png": "/static/media/FullLogo_Transparent.c84f011b1bdabdf4b20c.png",
-    "index.html": "/index.html",
-    "main.e04a649c.css.map": "/static/css/main.e04a649c.css.map",
-    "main.14cd408e.js.map": "/static/js/main.14cd408e.js.map"
+    "main.css": "/DeepVisionMx/static/css/main.27e2ded1.css",
+    "main.js": "/DeepVisionMx/static/js/main.102e3914.js",
+    "static/media/video-2.mp4": "/DeepVisionMx/static/media/video-2.39e6c79bffb375ae929a.mp4",
+    "static/media/Management.jpg": "/DeepVisionMx/static/media/Management.11498394daa24a1bdddd.jpg",
+    "static/media/Testing.jpg": "/DeepVisionMx/static/media/Testing.8eba742a6e2debfd2337.jpg",
+    "static/media/AI.jpg": "/DeepVisionMx/static/media/AI.0b4ab16cb914dc0f13ca.jpg",
+    "static/media/Devops.jpg": "/DeepVisionMx/static/media/Devops.69ffdca37a47d0a34bfb.jpg",
+    "static/media/BackPick.jpg": "/DeepVisionMx/static/media/BackPick.f100e5ec11b4eb6bf10d.jpg",
+    "static/media/Develoment.jpg": "/DeepVisionMx/static/media/Develoment.b26906aa0583f6492fd3.jpg",
+    "static/media/FullLogo_Transparent.png": "/DeepVisionMx/static/media/FullLogo_Transparent.c84f011b1bdabdf4b20c.png",
+    "index.html": "/DeepVisionMx/index.html",
+    "main.27e2ded1.css.map": "/DeepVisionMx/static/css/main.27e2ded1.css.map",
+    "main.102e3914.js.map": "/DeepVisionMx/static/js/main.102e3914.js.map"
   },
   "entrypoints": [
-    "static/css/main.e04a649c.css",
-    "static/js/main.14cd408e.js"
+    "static/css/main.27e2ded1.css",
+    "static/js/main.102e3914.js"
   ]
 }
