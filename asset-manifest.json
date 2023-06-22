@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DeepVisionMx/static/css/main.27e2ded1.css",
-    "main.js": "/DeepVisionMx/static/js/main.102e3914.js",
+    "main.js": "/DeepVisionMx/static/js/main.4ffaf037.js",
     "static/media/video-2.mp4": "/DeepVisionMx/static/media/video-2.39e6c79bffb375ae929a.mp4",
     "static/media/Management.jpg": "/DeepVisionMx/static/media/Management.11498394daa24a1bdddd.jpg",
     "static/media/Testing.jpg": "/DeepVisionMx/static/media/Testing.8eba742a6e2debfd2337.jpg",
@@ -12,10 +12,10 @@
     "static/media/FullLogo_Transparent.png": "/DeepVisionMx/static/media/FullLogo_Transparent.c84f011b1bdabdf4b20c.png",
     "index.html": "/DeepVisionMx/index.html",
     "main.27e2ded1.css.map": "/DeepVisionMx/static/css/main.27e2ded1.css.map",
-    "main.102e3914.js.map": "/DeepVisionMx/static/js/main.102e3914.js.map"
+    "main.4ffaf037.js.map": "/DeepVisionMx/static/js/main.4ffaf037.js.map"
   },
   "entrypoints": [
     "static/css/main.27e2ded1.css",
-    "static/js/main.102e3914.js"
+    "static/js/main.4ffaf037.js"
   ]
 }
