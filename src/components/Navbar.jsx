@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import "./Navbar.css";
-import {Link} from "react-scroll"
 import myLog from '../assets/logoandvideos/FullLogo_Transparent.png'
 
 
@@ -53,27 +52,27 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/Home" className="nav-links" onClick={closeMobileMenu}>
+              <div to="/Home" className="nav-links" onClick={closeMobileMenu}>
                 Home
-              </Link>
+              </div>
             </li>
             <li className="nav-item">
-              <Link
+              <div
                 to="/About"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 About
-              </Link>
+              </div>
             </li>
             <li className="nav-item">
-              <Link
+              <div
                 to="/Services"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Services
-              </Link>
+              </div>
             </li>
           </ul>
           {button && <Button buttonStyle="btn--outline">Contact</Button>}
