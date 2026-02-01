@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import "./Navbar.css";
 import myLog from '../assets/logoandvideos/FullLogo_Transparent.png'
+import { Link } from 'react-scroll';
 
 
 function Navbar() {
@@ -52,30 +53,34 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <div to="/Home" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="hero" smooth={true} duration={500} className="nav-links" onClick={closeMobileMenu}>
                 Home
-              </div>
+              </Link>
             </li>
             <li className="nav-item">
-              <div
-                to="/About"
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 About
-              </div>
+              </Link>
             </li>
             <li className="nav-item">
-              <div
-                to="/Services"
+              <Link
+                to="services"
+                smooth={true}
+                duration={500}
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Services
-              </div>
+              </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Contact</Button>}
+          {button && <Button buttonStyle="btn--outline"><Link to="contact" smooth={true} duration={500} style={{color: 'inherit', textDecoration: 'none'}}>Contact</Link></Button>}
         </div>
       </nav>
     </>

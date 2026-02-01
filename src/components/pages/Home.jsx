@@ -9,13 +9,15 @@ import About from '../About'
 
 function Home() {
   return (
-    <>
+    <div id="Home">
        <HeroSection />
-       <About/>
+       <div id="about">
+         <About/>
+       </div>
        <Cards/>
        <Footer/>
        
-    </>
+    </div>
   )
 }
 

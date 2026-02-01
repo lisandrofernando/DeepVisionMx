@@ -13,6 +13,7 @@ function CardItem(props) {
               src={props.src}
               className='cards__item__img'
               alt='IT WORD'
+              loading='eager'
             />
           </figure>
           <div className='cards__item__info'>

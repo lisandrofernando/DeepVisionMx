@@ -1,22 +1,25 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import {Link} from "react-scroll"
 import "./Footer.css"
 import myLog from '../assets/logoandvideos/FullLogo_Transparent.png'
-import emailjs from '@emailjs/browser';
-function Footer() {
 
-  const form = useRef()
+function Footer() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_brxds1b', 'template_hvivqam', form.current, 'hEbfIY72eSxATYRfB')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
+    
+    const formData = new FormData(e.target);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+    
+    const subject = `Contact Form - ${name}`;
+    const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+    
+    window.location.href = `mailto:lisandrusfernandus@hotmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+    
+    e.target.reset();
+    alert('Email client opened. Please send the email from your email application.');
   };
 
 
@@ -27,9 +30,9 @@ function Footer() {
              PARTNER WITH US
          </p>
         <div className='input-areas'>
-          <form ref={form} onSubmit={sendEmail}>
-            <input type="name" name="name" id="name" placeholder='Your Name'  className='footer-input' required/>
-            <input type="email" name='email' test-data-id='email' placeholder='Your Email' className='footer-input'required/>
+          <form onSubmit={sendEmail}>
+            <input type="text" name="name" id="name" placeholder='Your Name'  className='footer-input' required/>
+            <input type="email" name='email' placeholder='Your Email' className='footer-input' required/>
             <textarea name="message" id="message" cols="30" rows="10" placeholder='Your Message' className='footer-input' required></textarea>
             <button type='submit' className='btn-btn'> Send Message</button>
           </form>

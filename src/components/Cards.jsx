@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Cards.css';
 import CardItem from './CardItem';
 import testing from '../assets/logoandvideos/Testing.jpg'
@@ -8,6 +8,13 @@ import projectMang from '../assets/logoandvideos/Management.jpg'
 import Ai from '../assets/logoandvideos/AI.jpg'
 
 function Cards() {
+  useEffect(() => {
+    const images = [testing, devops, development, projectMang, Ai];
+    images.forEach(src => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
   return (
     <div className='cards' id='services'>
       <h1>Check out our Services</h1>
